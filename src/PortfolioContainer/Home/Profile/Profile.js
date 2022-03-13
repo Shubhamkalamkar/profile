@@ -9,19 +9,19 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
               <div className="colz-icon">     
-            <a href="https://github.com/Waer1/Edvora-Task">
+            <a href="https://www.facebook.com/shubhamkalamkar0101/">
               <i className="fa fa-facebook-square"></i>
             </a>
-            <a href="#">
+            <a href="mailto:shubhamkalamkar0101@gmail.com">
               <i className="fa fa-google-plus-square"></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/shubham__kalamkar/">
               <i className="fa fa-instagram"></i>
             </a>
-            <a href="#">
+            <a href="https://youtube.com/channel/UCk66OfM16gAJ70dKbSEms3w">
               <i className="fa fa-youtube-square"></i>
             </a>
-            <a href="#">
+            <a href="https://www.twitter.com/kalamkar0101/">
               <i className="fa fa-twitter"></i>
             </a>
                   </div>
