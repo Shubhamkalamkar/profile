@@ -1,9 +1,10 @@
 import React from "react";
 import Typical from 'react-typical'
 import './Profile.css';
-
+import {Link} from 'react-router-dom'
 export default function Profile() {
   return (
+    
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
@@ -56,10 +57,11 @@ export default function Profile() {
                   </span>
               </div>
               <div className="profile-options">
-                  <button className="btn primary-btn">
+                  <Link to="/contact"><button className="btn primary-btn">
                       {""}
-                      Hire Me
+                      Contact Me
                       </button>
+                      </Link>
                       <a href="sample.pdf" download='sample.pdf'>
                       {/* <a href="sample.pdf" download='sample.pdf'> */}
                       <button className="btn highlighted-btn">Get Resume</button>
