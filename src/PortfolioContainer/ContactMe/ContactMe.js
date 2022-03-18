@@ -10,6 +10,8 @@ export default function ContactMe() {
         emailjs.sendForm('service_5mue3ij', 'template_3lupsql', e.target,"1KaRrTPk_CU6A7_O7").then(res=>{
             console.log(res);
         }).catch(err=> console.log(err));
+        e.target.reset();
+        alert("Message Sent Successfully")
     }
   return (
       <div className='container'>
