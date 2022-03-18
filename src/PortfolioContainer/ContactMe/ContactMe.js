@@ -14,7 +14,7 @@ export default function ContactMe() {
         alert("Message Sent Successfully")
     }
   return (
-      <div className='container'>
+      <div className='contactContainer'>
           <form onSubmit={sendEmail}>
               <h3>ContactMe</h3>
               <input type="text" name='name' placeholder='Enter Your Name' required />

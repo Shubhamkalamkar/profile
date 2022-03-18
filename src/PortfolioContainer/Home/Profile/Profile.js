@@ -62,10 +62,11 @@ export default function Profile() {
                       Contact Me
                       </button>
                       </Link>
-                      <a href="sample.pdf" download='sample.pdf'>
                       {/* <a href="sample.pdf" download='sample.pdf'> */}
-                      <button className="btn highlighted-btn">Get Resume</button>
-                      </a>
+                      {/* <a href="sample.pdf" download='sample.pdf'> */}
+                      <Link to="/about"><button className="btn highlighted-btn">About Me</button>
+                      </Link>
+                      {/* </a> */}
                   </div>
         </div>
         <div className="profile-picture">
