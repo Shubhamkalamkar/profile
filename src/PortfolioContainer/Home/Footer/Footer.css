@@ -1,4 +1,4 @@
-.footer-container{
+/* .footer-container{
     height: 17.8%;
     width: 100%;
     overflow: hidden;
@@ -13,10 +13,22 @@
 .footer-parent img{
     max-width: 100%;
     height: 130px;
+} */
+.footer-bg{
+    height: 100%;
+    width: 100%;
+    background-image: url('./shape-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 10px;
+}
+.footer-img{
+    width: 100%;
+    height: 400px;
 }
 
 @media only screen and (max-width:1110px){
-    .footer-parent{
+    .footer-bg{
         display: flex;
         align-items: flex-end;
     }

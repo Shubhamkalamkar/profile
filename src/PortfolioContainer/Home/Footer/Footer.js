@@ -3,11 +3,17 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className='footer-container'>
-        <div className="footer-parent">
-            <img src={require('../../../assets/Home/shape-bg.png').default}
-             alt='no internet connection' />
+    // <div className='footer-container'>
+    //     <div className="footer-parent">
+    //         <img src={require("./shape-bg.png").default}
+    //          alt='no internet connection' />
+    //         </div>
+    // </div>
+
+    <div className="footer-img">
+            <div className="footer-bg">
+                
+                </div>
             </div>
-    </div>
   )
 }

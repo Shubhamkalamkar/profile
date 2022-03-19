@@ -20,13 +20,19 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    /* Me */
+    padding-left: 0%;
+    margin: 0%;
+    padding-right: 0%;
 }
 .container .leftSide{
     position: relative;
     background: #003147;
-    padding: 40px;
+    /* padding: 40px; */
+    padding: 10px;
+    padding-left: 20px;
     min-height: 1000px;
-    min-width: 450px;
+    /* min-width: 450px; */;
 }
 .profileTxt{
     position: relative;
@@ -52,7 +58,7 @@
     height: 200px;
     width: 200px;
     /* margin: 0 0px 0 100px; */
-    margin-right: 90px;
+    /* margin-right: 90px; */
 }
 .about-Me-Profile-Picture-Background{
     height: 92%;
@@ -137,20 +143,20 @@
     display: block;
     margin-top: 5px;
 }
-.contactInfo.language .percent div{
+/* .contactInfo.language .percent div{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     background: #03a9f4;
-}
+} */
 
 .container .rightSide{
     position: relative;
     background:#fff;
     padding: 40px;
     min-height: 1000px;
-    min-width: 800px;
+    /* min-width: 800px; */
 } 
 .about{
     margin-bottom: 50px;

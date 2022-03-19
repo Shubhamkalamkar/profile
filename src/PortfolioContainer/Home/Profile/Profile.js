@@ -57,15 +57,15 @@ export default function Profile() {
                   </span>
               </div>
               <div className="profile-options">
-                  <Link to="/contact"><button className="btn primary-btn">
+                  {/* <Link to="/contact"><button className="btn primary-btn">
                       {""}
                       Contact Me
                       </button>
-                      </Link>
+                      </Link> */}
                       {/* <a href="sample.pdf" download='sample.pdf'> */}
                       {/* <a href="sample.pdf" download='sample.pdf'> */}
-                      <Link to="/about"><button className="btn highlighted-btn">About Me</button>
-                      </Link>
+                      {/* <Link to="/about"><button className="btn highlighted-btn">About Me</button>
+                      </Link> */}
                       {/* </a> */}
                   </div>
         </div>

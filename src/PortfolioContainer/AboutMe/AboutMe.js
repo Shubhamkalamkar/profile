@@ -40,7 +40,7 @@ export default function AboutMe() {
                 </span>
                 <span className="text">
                   {" "}
-                  https://shubhamkalamkar.github.io/profile/
+                  https://bit.ly/3qlHBAR
                 </span>
               </li>
               <li>
@@ -77,21 +77,21 @@ export default function AboutMe() {
             <ul>
               <li>
                 <span className="text">English</span>
-                <span className="percent">
+                {/* <span className="percent">
                   <div style={{ width: 200 }}></div>
-                </span>
+                </span> */}
               </li>
               <li>
                 <span className="text">Marathi</span>
-                <span className="percent">
+                {/* <span className="percent">
                   <div style={{ width: 350 }}></div>
-                </span>
+                </span> */}
               </li>
               <li>
                 <span className="text">Hindi</span>
-                <span className="percent">
+                {/* <span className="percent">
                   <div style={{ width: 300 }}></div>
-                </span>
+                </span> */}
               </li>
             </ul>
           </div>
@@ -112,47 +112,48 @@ export default function AboutMe() {
             <h2 className="title2">Professional Skills</h2>
             <div className="box">
               <h4>HTML</h4>
-              <div className="percent">
+              {/* <div className="percent">
                   <div style={{width:400}}></div>
-              </div>
+              </div> */}
             </div>
             <div className="box">
               <h4>CSS</h4>
-              <div className="percent">
+              {/* <div className="percent">
               <div style={{width:300}}></div>
-              </div>
+              </div> */}
             </div>
             <div className="box">
               <h4>JAVASCRIPT</h4>
-              <div className="percent">
+              {/* <div className="percent">
               <div style={{width:300}}></div>
-              </div>
+              </div> */}
             </div>
             <div className="box">
               <h4>C++</h4>
-              <div className="percent">
+              {/* <div className="percent">
               <div style={{width:350}}></div>
-              </div>
+              </div> */}
             </div>
             <div className="box">
               <h4>JAVA</h4>
-              <div className="percent">
+              {/* <div className="percent">
               <div style={{width:350}}></div>
-              </div>
+              </div> */}
             </div>
             <div className="box">
               <h4>ANDROID</h4>
-              <div className="percent">
+              {/* <div className="percent">
               <div style={{width:300}}></div>
-              </div>
+              </div> */}
           </div>
           </div>
 
           <div className="about interest">
               <h2 className="title2">Interest</h2>
-              <ul>
+              {/* <ul>
                   <li>Reading</li>
-              </ul>
+              </ul> */}
+              {/* Innovating New Things */}
           </div>
 
         </div>
