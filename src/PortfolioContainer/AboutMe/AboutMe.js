@@ -16,7 +16,7 @@ export default function AboutMe() {
             <h2>
               Shubham Kalamkar
               <br />
-              <span>Web Devloper</span>
+              <span>Web Developer</span>
             </h2>
           </div>
           <div className="contactInfo">
@@ -38,10 +38,7 @@ export default function AboutMe() {
                 <span className="icon">
                   <i class="fa fa-globe" aria-hidden="true"></i>
                 </span>
-                <span className="text">
-                  {" "}
-                  https://bit.ly/3qlHBAR
-                </span>
+                <span className="text"> https://bit.ly/3qlHBAR</span>
               </li>
               <li>
                 <span className="icon">
@@ -100,12 +97,9 @@ export default function AboutMe() {
           <div className="about">
             <h2 className="title2">Profile</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptatum veritatis dolorum saepe sit nobis beatae ad commodi
-              quaerat est illo, perferendis et at non a, mollitia id consequatur
-              voluptas architecto iure dicta. Labore cupiditate officiis
-              eligendi delectus odit laudantium aut similique magni, laborum
-              accusantium.
+              To become a successful professional in the field of software
+              engineering and do work in an environment where I can utilize my
+              knowledge and work towards organization goals.
             </p>
           </div>
           <div className="about skills">
@@ -145,17 +139,22 @@ export default function AboutMe() {
               {/* <div className="percent">
               <div style={{width:300}}></div>
               </div> */}
-          </div>
+            </div>
+            <div className="box">
+              <h4>REACT JS</h4>
+              {/* <div className="percent">
+              <div style={{width:300}}></div>
+              </div> */}
+            </div>
           </div>
 
           <div className="about interest">
-              <h2 className="title2">Interest</h2>
-              {/* <ul>
+            <h2 className="title2">Interest</h2>
+            {/* <ul>
                   <li>Reading</li>
               </ul> */}
-              {/* Innovating New Things */}
+            {/* Innovating New Things */}
           </div>
-
         </div>
       </div>
     </div>

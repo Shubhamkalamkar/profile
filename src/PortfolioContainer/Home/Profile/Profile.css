@@ -55,9 +55,9 @@
     margin: 0 0px 0 100px;
 }
 .profile-picture-background{
-    height: 92%;
+    height: 100%;
     width: 92%;
-    background-image: url('../../../assets/Home/profile.jpg');
+    background-image: url('../../../assets/Home/my-photo.jpg');
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
